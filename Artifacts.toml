@@ -1,0 +1,17 @@
+[[PETSc]]
+arch = "x86_64"
+git-tree-sha1 = "2b14a9ee034fa1ff687091d91574076dd1a7ff6d"
+libc = "glibc"
+os = "linux"
+
+    [[PETSc.download]]
+    sha256 = "5e5799cbcfb11b720d0a9b4b79fa5fce888c687e58dd9677a67b73cbb965350a"
+    url = "https://github.com/kyungminlee/PETSc_jll.jl/releases/download/PETSc-v3.13.3+0/PETSc.v3.13.3.x86_64-linux-gnu.tar.gz"
+[[PETSc]]
+arch = "x86_64"
+git-tree-sha1 = "b3deef032ca47b817d8fdc192bba69ab28cb578f"
+os = "windows"
+
+    [[PETSc.download]]
+    sha256 = "faa81bc5ac7a78864fc80e17d288cc73221737d6643605ea99e75a3093f86982"
+    url = "https://github.com/kyungminlee/PETSc_jll.jl/releases/download/PETSc-v3.13.3+0/PETSc.v3.13.3.x86_64-w64-mingw32.tar.gz"
